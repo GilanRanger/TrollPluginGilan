@@ -1,0 +1,16 @@
+name: Troll
+version: 1.0-SNAPSHOT
+main: me.gilan.troll.Troll
+authors: [Gilan]
+description: commands for trolling
+
+commands:
+  boxtotal:
+    usage: /<command>
+    description: Boxes in player totally
+  creeper:
+    usage: /<command>
+    description: Spawn creeper on player
+  box:
+    usage: /<command>
+    description: Boxes in player, only replaces air blocks
