@@ -338,7 +338,7 @@ public class SafeBox implements Listener, CommandExecutor {
             }
         }
         else{
-            sender.sendMessage("Your not a Player!!!");
+            sender.sendMessage("You're not a Player!!!");
             return true;
         }
         return false;
