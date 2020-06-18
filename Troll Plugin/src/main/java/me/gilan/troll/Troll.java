@@ -14,6 +14,6 @@ public final class Troll extends JavaPlugin {
         getCommand("boxtotal").setExecutor(new BarrierBox());
         getCommand("creeper").setExecutor(new CreeperSpawn());
         getCommand("box").setExecutor(new SafeBox());
-        getServer().getPluginManager().registerEvents(new x(), this);
+        
     }
 }
